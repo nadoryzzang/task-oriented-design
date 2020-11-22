@@ -67,3 +67,39 @@ a:hover, a:link, a:visited, a:active
 h1, h6 {
     font-weight: 700;
 }
+
+/* circled number */
+ol {
+  max-width: 350px;
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+}
+ol li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+ol li::before {
+  content: counter(my-awesome-counter);
+  color: #fff;
+  font-size: 0.7rem;
+  position: absolute;
+  --size: 18px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  background: #ccc;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.ex {
+  font-size: 14px;
+}
+
+.screenflow {
+  max-height: 800px;
+}
