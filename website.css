@@ -108,3 +108,7 @@ ol li::before {
 .screenflow {
   max-height: 800px;
 }
+
+.pl-40 {
+  padding-left: 40px;
+}
