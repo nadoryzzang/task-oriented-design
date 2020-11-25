@@ -35,8 +35,9 @@
 
 a.task:hover, a.category:hover
  {
-  box-shadow: 3px 3px 12px 1px #ccc;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 a:hover, a:link, a:visited, a:active
