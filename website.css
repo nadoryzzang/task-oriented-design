@@ -2,10 +2,6 @@
   word-break: keep-all;
 }
 
-body {
-  padding: 30px;
-}
-
 @media (min-width: 576px) {
 
   body {
@@ -17,8 +13,20 @@ body {
     padding-top: 0px;
   }
 
-
  }
+
+ @media (min-width: 768px), @media (min-width: 992px), @media (min-width: 1200px) {
+
+   body {
+     padding: 30px;
+   }
+
+   .pl-40 {
+     padding-left: 40px;
+     padding-top: 20px;
+   }
+
+  }
 
 html, body {
   height: 100%;
@@ -140,9 +148,4 @@ ol li::before {
 
 .screenflow {
   max-height: 800px;
-}
-
-.pl-40 {
-  padding-left: 40px;
-  padding-top: 20px;
 }
