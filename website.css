@@ -13,6 +13,16 @@
     padding-top: 0px;
   }
 
+  .title-- {
+     font-size: 3rem;
+     line-height: 1.7em;
+  }
+
+  .subtitle-- {
+    font-size: 2rem;
+    line-height: 1.7em;
+  }
+
  }
 
  @media (min-width: 768px), @media (min-width: 992px), @media (min-width: 1200px) {
@@ -24,6 +34,16 @@
    .pl-40 {
      padding-left: 40px;
      padding-top: 20px;
+   }
+
+   .title-- {
+      font-size: 4rem;
+      line-height: 1.7em;
+   }
+
+   .subtitle-- {
+     font-size: 3rem;
+     line-height: 1.7em;
    }
 
   }
@@ -42,16 +62,6 @@ html, body {
   z-index: 1020;
   width: 100%;
   text-align: center;
-}
-
-.title-- {
-   font-size: 4rem;
-   line-height: 1.7em;
-}
-
-.subtitle-- {
-  font-size: 3rem;
-  line-height: 1.7em;
 }
 
 .p-- {
