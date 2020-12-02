@@ -44,6 +44,21 @@ html, body {
   text-align: center;
 }
 
+.title-- {
+   font-size: 4rem;
+   line-height: 1.7em;
+}
+
+.subtitle-- {
+  font-size: 3rem;
+  line-height: 1.7em;
+}
+
+.p-- {
+  font-size: 2rem;
+  line-height: 1.7em;
+}
+
 .header-sub {
   position: fixed;
   display: block;
